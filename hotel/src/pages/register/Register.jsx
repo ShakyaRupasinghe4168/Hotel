@@ -61,7 +61,7 @@ const Register = () => {
             className="rInput"
           />
           <button type="submit" disabled={loading} className="rButton">
-            Sign In
+            Sign Up
           </button>
           {error && <span>{error.message}</span>}
         </form>
